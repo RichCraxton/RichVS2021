@@ -80,7 +80,7 @@ Partial Class Form1
         '
         Cp_noLabel.AutoSize = True
         Cp_noLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Cp_noLabel.Location = New System.Drawing.Point(46, 114)
+        Cp_noLabel.Location = New System.Drawing.Point(12, 89)
         Cp_noLabel.Name = "Cp_noLabel"
         Cp_noLabel.Size = New System.Drawing.Size(151, 20)
         Cp_noLabel.TabIndex = 1
@@ -90,7 +90,7 @@ Partial Class Form1
         '
         Part_numberLabel.AutoSize = True
         Part_numberLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Part_numberLabel.Location = New System.Drawing.Point(46, 160)
+        Part_numberLabel.Location = New System.Drawing.Point(12, 135)
         Part_numberLabel.Name = "Part_numberLabel"
         Part_numberLabel.Size = New System.Drawing.Size(102, 20)
         Part_numberLabel.TabIndex = 3
@@ -100,7 +100,7 @@ Partial Class Form1
         '
         DescriptionLabel.AutoSize = True
         DescriptionLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DescriptionLabel.Location = New System.Drawing.Point(46, 204)
+        DescriptionLabel.Location = New System.Drawing.Point(12, 179)
         DescriptionLabel.Name = "DescriptionLabel"
         DescriptionLabel.Size = New System.Drawing.Size(93, 20)
         DescriptionLabel.TabIndex = 5
@@ -110,7 +110,7 @@ Partial Class Form1
         '
         Specific_gravityLabel.AutoSize = True
         Specific_gravityLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Specific_gravityLabel.Location = New System.Drawing.Point(46, 248)
+        Specific_gravityLabel.Location = New System.Drawing.Point(12, 223)
         Specific_gravityLabel.Name = "Specific_gravityLabel"
         Specific_gravityLabel.Size = New System.Drawing.Size(122, 20)
         Specific_gravityLabel.TabIndex = 7
@@ -120,7 +120,7 @@ Partial Class Form1
         '
         Cp_costLabel.AutoSize = True
         Cp_costLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Cp_costLabel.Location = New System.Drawing.Point(46, 292)
+        Cp_costLabel.Location = New System.Drawing.Point(12, 267)
         Cp_costLabel.Name = "Cp_costLabel"
         Cp_costLabel.Size = New System.Drawing.Size(128, 20)
         Cp_costLabel.TabIndex = 9
@@ -130,7 +130,7 @@ Partial Class Form1
         '
         ObsoleteLabel.AutoSize = True
         ObsoleteLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        ObsoleteLabel.Location = New System.Drawing.Point(46, 377)
+        ObsoleteLabel.Location = New System.Drawing.Point(12, 352)
         ObsoleteLabel.Name = "ObsoleteLabel"
         ObsoleteLabel.Size = New System.Drawing.Size(82, 20)
         ObsoleteLabel.TabIndex = 11
@@ -172,15 +172,16 @@ Partial Class Form1
         Me.Cond_compoundBindingNavigator.BindingSource = Me.Cond_compoundBindingSource
         Me.Cond_compoundBindingNavigator.CountItem = Me.BindingNavigatorCountItem
         Me.Cond_compoundBindingNavigator.DeleteItem = Me.BindingNavigatorDeleteItem
+        Me.Cond_compoundBindingNavigator.Dock = System.Windows.Forms.DockStyle.None
         Me.Cond_compoundBindingNavigator.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BindingNavigatorMoveFirstItem, Me.BindingNavigatorMovePreviousItem, Me.BindingNavigatorSeparator, Me.BindingNavigatorPositionItem, Me.BindingNavigatorCountItem, Me.BindingNavigatorSeparator1, Me.BindingNavigatorMoveNextItem, Me.BindingNavigatorMoveLastItem, Me.BindingNavigatorSeparator2, Me.BindingNavigatorAddNewItem, Me.BindingNavigatorDeleteItem, Me.Cond_compoundBindingNavigatorSaveItem})
-        Me.Cond_compoundBindingNavigator.Location = New System.Drawing.Point(0, 0)
+        Me.Cond_compoundBindingNavigator.Location = New System.Drawing.Point(862, 9)
         Me.Cond_compoundBindingNavigator.MoveFirstItem = Me.BindingNavigatorMoveFirstItem
         Me.Cond_compoundBindingNavigator.MoveLastItem = Me.BindingNavigatorMoveLastItem
         Me.Cond_compoundBindingNavigator.MoveNextItem = Me.BindingNavigatorMoveNextItem
         Me.Cond_compoundBindingNavigator.MovePreviousItem = Me.BindingNavigatorMovePreviousItem
         Me.Cond_compoundBindingNavigator.Name = "Cond_compoundBindingNavigator"
         Me.Cond_compoundBindingNavigator.PositionItem = Me.BindingNavigatorPositionItem
-        Me.Cond_compoundBindingNavigator.Size = New System.Drawing.Size(1169, 25)
+        Me.Cond_compoundBindingNavigator.Size = New System.Drawing.Size(278, 25)
         Me.Cond_compoundBindingNavigator.TabIndex = 0
         Me.Cond_compoundBindingNavigator.Text = "BindingNavigator1"
         '
@@ -285,7 +286,7 @@ Partial Class Form1
         Me.Cp_noTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.Cp_noTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Cond_compoundBindingSource, "cp_no", True))
         Me.Cp_noTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Cp_noTextBox.Location = New System.Drawing.Point(228, 111)
+        Me.Cp_noTextBox.Location = New System.Drawing.Point(194, 86)
         Me.Cp_noTextBox.MaxLength = 6
         Me.Cp_noTextBox.Name = "Cp_noTextBox"
         Me.Cp_noTextBox.Size = New System.Drawing.Size(131, 22)
@@ -298,7 +299,7 @@ Partial Class Form1
         Me.Part_numberTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.Part_numberTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Cond_compoundBindingSource, "part_number", True))
         Me.Part_numberTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Part_numberTextBox.Location = New System.Drawing.Point(228, 157)
+        Me.Part_numberTextBox.Location = New System.Drawing.Point(194, 132)
         Me.Part_numberTextBox.MaxLength = 30
         Me.Part_numberTextBox.Name = "Part_numberTextBox"
         Me.Part_numberTextBox.Size = New System.Drawing.Size(429, 22)
@@ -311,7 +312,7 @@ Partial Class Form1
         Me.DescriptionTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.DescriptionTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Cond_compoundBindingSource, "description", True))
         Me.DescriptionTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DescriptionTextBox.Location = New System.Drawing.Point(228, 201)
+        Me.DescriptionTextBox.Location = New System.Drawing.Point(194, 176)
         Me.DescriptionTextBox.MaxLength = 80
         Me.DescriptionTextBox.Name = "DescriptionTextBox"
         Me.DescriptionTextBox.Size = New System.Drawing.Size(590, 22)
@@ -324,7 +325,7 @@ Partial Class Form1
         Me.Specific_gravityTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.Specific_gravityTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Cond_compoundBindingSource, "specific_gravity", True))
         Me.Specific_gravityTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Specific_gravityTextBox.Location = New System.Drawing.Point(228, 245)
+        Me.Specific_gravityTextBox.Location = New System.Drawing.Point(194, 220)
         Me.Specific_gravityTextBox.MaxLength = 6
         Me.Specific_gravityTextBox.Name = "Specific_gravityTextBox"
         Me.Specific_gravityTextBox.Size = New System.Drawing.Size(131, 22)
@@ -337,7 +338,7 @@ Partial Class Form1
         Me.Cp_costTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.Cp_costTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Cond_compoundBindingSource, "cp_cost", True))
         Me.Cp_costTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Cp_costTextBox.Location = New System.Drawing.Point(228, 289)
+        Me.Cp_costTextBox.Location = New System.Drawing.Point(194, 264)
         Me.Cp_costTextBox.MaxLength = 8
         Me.Cp_costTextBox.Name = "Cp_costTextBox"
         Me.Cp_costTextBox.Size = New System.Drawing.Size(131, 22)
@@ -350,7 +351,7 @@ Partial Class Form1
         Me.ObsoleteTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.ObsoleteTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Cond_compoundBindingSource, "obsolete", True))
         Me.ObsoleteTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ObsoleteTextBox.Location = New System.Drawing.Point(228, 374)
+        Me.ObsoleteTextBox.Location = New System.Drawing.Point(194, 349)
         Me.ObsoleteTextBox.MaxLength = 1
         Me.ObsoleteTextBox.Name = "ObsoleteTextBox"
         Me.ObsoleteTextBox.Size = New System.Drawing.Size(62, 22)
@@ -360,7 +361,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(283, 25)
+        Me.Label1.Location = New System.Drawing.Point(240, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(303, 42)
         Me.Label1.TabIndex = 13
@@ -387,7 +388,7 @@ Partial Class Form1
         Me.ObsoleteTextBox1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Cond_compoundBindingSource, "obsolete", True))
         Me.ObsoleteTextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ObsoleteTextBox1.ForeColor = System.Drawing.Color.Red
-        Me.ObsoleteTextBox1.Location = New System.Drawing.Point(446, 274)
+        Me.ObsoleteTextBox1.Location = New System.Drawing.Point(412, 249)
         Me.ObsoleteTextBox1.MaxLength = 15
         Me.ObsoleteTextBox1.Name = "ObsoleteTextBox1"
         Me.ObsoleteTextBox1.ReadOnly = True
@@ -405,11 +406,12 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(834, 69)
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(862, 112)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(99, 43)
         Me.Button1.TabIndex = 18
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Print Form"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'PrintDialog1

@@ -49,9 +49,11 @@
         '  PrintDocument1.PrinterSettings = PrintDialog1.PrinterSettings
         '  PrintDocument1.Print()
         '  End If
+        PrintForm1.PrinterSettings = PrintDialog1.PrinterSettings
+        Me.PrintForm1.PrinterSettings.DefaultPageSettings.Margins.Left = CInt(0.1)
+        Me.PrintForm1.PrinterSettings.DefaultPageSettings.Margins.Right = CInt(0.1)
         Me.PrintForm1.PrintAction = Printing.PrintAction.PrintToPreview
         Me.PrintForm1.Print(Me, PowerPacks.Printing.PrintForm.PrintOption.ClientAreaOnly)
-        ' Me.PrintForm1.Print()
 
     End Sub
 End Class
