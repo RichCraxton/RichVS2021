@@ -1,0 +1,28 @@
+|cp_no |part_number                   |obsolete|description                                                                     |specific_gravity|cp_cost|unique_id|
+|------|------------------------------|--------|--------------------------------------------------------------------------------|----------------|-------|---------|
+|CP0002|3002-25 REV 14D               |        |3002-25 XLPE / EXCELENE 3150,150C COMP                                          |1.25            |2.46   |2        |
+|CP0003|3002-35HA50                   |        |3002-35HA50, 150 DEGC COMPOUND                                                  |1.23            |1.84   |3        |
+|CP0004|3002-35Q                      |        |3002-35Q, 150 DEG C COMPOUND                                                    |1.24            |1.88   |4        |
+|CP0005|3046-25VX2 REV 6              |        |3046-25 VX-2 XLPE COMPOUND                                                      |1.30            |3.03   |5        |
+|CP0008|15642                         |Y       |AXIALL 15642 PVC,105 DEGC COMPOUND                                              |1.34            |       |8        |
+|CP0009|FR4830                        |        |BOREALIS FR4830 / XL-7425, 125C COMP                                            |1.39            |1.25   |9        |
+|CP0011|1100-73                       |        |EPDM 1100-073, 90 DEGC COMPOUND                                                 |1.54            |1.263  |11       |
+|CP0012|1100-75A                      |Y       |EPDM 1100-75A, 105C COMPOUND                                                    |1.52            |       |12       |
+|CP0013|1875-102                      |Y       |EPDM 1875-102 J                                                                 |1.33            |       |13       |
+|CP0014|1875-102D                     |        |EPDM 1875-102D (REV) 150C COMPOUND                                              |1.26            |2.65   |14       |
+|CP0015|1875-103                      |        |EPDM 1875-103, 125C COMPOUND                                                    |1.27            |2.65   |15       |
+|CP0017|509/65                        |        |MOMENTIVE / WACKER SILICONE COMP                                                |1.31            |2.9    |17       |
+|CP0018|2397                          |Y       |PVC 2397 80 Degree C                                                            |1.25            |       |18       |
+|CP0020|4501                          |        |PVC 4501, 105 DEG C COMPOUND                                                    |1.30            |1.038  |20       |
+|CP0021|70L                           |Y       |PVC EHA 70L 105 Degree C                                                        |1.31            |       |21       |
+|CP0022|3067-25                       |        |XL 3067-25 , 125C XLPE COMPOUND                                                 |1.41            |2.56   |22       |
+|CP0023|7414                          |Y       |XL-7414 125 Degree C                                                            |1.38            |       |23       |
+|CP0024|7420                          |        |XL-7420, 125 DEG C COMPOUND                                                     |1.40            |2.21   |24       |
+|CP0019|6915                          |        |PVC 4425, 85 DEG C COMPOUND                                                     |1.34            |1.241  |19       |
+|CP0006|6926-021                      |        |6926-021, 105 DEG C COMPOUND                                                    |1.39            |1.221  |6        |
+|CP0007|6926-022                      |        |6926-022 PVC,105 DEGC COMPOUND                                                  |1.38            |1.221  |7        |
+|CP0016|V1099                         |        |MANNER V1099 NAT 601, 105C PVC COMP                                             |1.34            |1.511  |16       |
+|CP0001|1812-29                       |        |1712-19 HYPALON                                                                 |1.36            |2.47   |1        |
+|CP0000|No/Undefined Compound         |        |Compound Not Defined or No Compound for Part                                    |0.00            |0.0    |26       |
+|CP0010|SUPEROHM 4863V                |        |ECC SUPEROHM 4863 EPCV COMPOUND                                                 |1.37            |3.36   |10       |
+|CP9999|TEST COMPOUND                 |Y       |12345678901234567890123456789012345678901234567890123456789012345678901234567890|1.00            |0.0    |25       |

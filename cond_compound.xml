@@ -1,0 +1,248 @@
+<?xml version="1.0" ?>
+<!DOCTYPE cond_compound [
+  <!ELEMENT cond_compound (DATA_RECORD*)>
+  <!ELEMENT DATA_RECORD (cp_no?,part_number?,obsolete?,description?,specific_gravity?,cp_cost?,unique_id?)+>
+  <!ELEMENT cp_no (#PCDATA)>
+  <!ELEMENT part_number (#PCDATA)>
+  <!ELEMENT obsolete (#PCDATA)>
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT specific_gravity (#PCDATA)>
+  <!ELEMENT cp_cost (#PCDATA)>
+  <!ELEMENT unique_id (#PCDATA)>
+]>
+<cond_compound>
+  <DATA_RECORD>
+    <cp_no>CP0002</cp_no>
+    <part_number>3002-25 REV 14D               </part_number>
+    <obsolete>  </obsolete>
+    <description>3002-25 XLPE / EXCELENE 3150,150C COMP                                          </description>
+    <specific_gravity>1.25</specific_gravity>
+    <cp_cost>2.46</cp_cost>
+    <unique_id>2</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0003</cp_no>
+    <part_number>3002-35HA50                   </part_number>
+    <obsolete>  </obsolete>
+    <description>3002-35HA50, 150 DEGC COMPOUND                                                  </description>
+    <specific_gravity>1.23</specific_gravity>
+    <cp_cost>1.84</cp_cost>
+    <unique_id>3</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0004</cp_no>
+    <part_number>3002-35Q                      </part_number>
+    <obsolete>  </obsolete>
+    <description>3002-35Q, 150 DEG C COMPOUND                                                    </description>
+    <specific_gravity>1.24</specific_gravity>
+    <cp_cost>1.88</cp_cost>
+    <unique_id>4</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0005</cp_no>
+    <part_number>3046-25VX2 REV 6              </part_number>
+    <obsolete>  </obsolete>
+    <description>3046-25 VX-2 XLPE COMPOUND                                                      </description>
+    <specific_gravity>1.3</specific_gravity>
+    <cp_cost>3.03</cp_cost>
+    <unique_id>5</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0008</cp_no>
+    <part_number>15642                         </part_number>
+    <obsolete>Y </obsolete>
+    <description>AXIALL 15642 PVC,105 DEGC COMPOUND                                              </description>
+    <specific_gravity>1.34</specific_gravity>
+    <cp_cost></cp_cost>
+    <unique_id>8</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0009</cp_no>
+    <part_number>FR4830                        </part_number>
+    <obsolete>  </obsolete>
+    <description>BOREALIS FR4830 / XL-7425, 125C COMP                                            </description>
+    <specific_gravity>1.39</specific_gravity>
+    <cp_cost>1.25</cp_cost>
+    <unique_id>9</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0011</cp_no>
+    <part_number>1100-73                       </part_number>
+    <obsolete>  </obsolete>
+    <description>EPDM 1100-073, 90 DEGC COMPOUND                                                 </description>
+    <specific_gravity>1.54</specific_gravity>
+    <cp_cost>1.263</cp_cost>
+    <unique_id>11</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0012</cp_no>
+    <part_number>1100-75A                      </part_number>
+    <obsolete>Y </obsolete>
+    <description>EPDM 1100-75A, 105C COMPOUND                                                    </description>
+    <specific_gravity>1.52</specific_gravity>
+    <cp_cost></cp_cost>
+    <unique_id>12</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0013</cp_no>
+    <part_number>1875-102                      </part_number>
+    <obsolete>Y </obsolete>
+    <description>EPDM 1875-102 J                                                                 </description>
+    <specific_gravity>1.33</specific_gravity>
+    <cp_cost></cp_cost>
+    <unique_id>13</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0014</cp_no>
+    <part_number>1875-102D                     </part_number>
+    <obsolete>  </obsolete>
+    <description>EPDM 1875-102D (REV) 150C COMPOUND                                              </description>
+    <specific_gravity>1.26</specific_gravity>
+    <cp_cost>2.65</cp_cost>
+    <unique_id>14</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0015</cp_no>
+    <part_number>1875-103                      </part_number>
+    <obsolete>  </obsolete>
+    <description>EPDM 1875-103, 125C COMPOUND                                                    </description>
+    <specific_gravity>1.27</specific_gravity>
+    <cp_cost>2.65</cp_cost>
+    <unique_id>15</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0017</cp_no>
+    <part_number>509/65                        </part_number>
+    <obsolete>  </obsolete>
+    <description>MOMENTIVE / WACKER SILICONE COMP                                                </description>
+    <specific_gravity>1.31</specific_gravity>
+    <cp_cost>2.9</cp_cost>
+    <unique_id>17</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0018</cp_no>
+    <part_number>2397                          </part_number>
+    <obsolete>Y </obsolete>
+    <description>PVC 2397 80 Degree C                                                            </description>
+    <specific_gravity>1.25</specific_gravity>
+    <cp_cost></cp_cost>
+    <unique_id>18</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0020</cp_no>
+    <part_number>4501                          </part_number>
+    <obsolete>  </obsolete>
+    <description>PVC 4501, 105 DEG C COMPOUND                                                    </description>
+    <specific_gravity>1.3</specific_gravity>
+    <cp_cost>1.038</cp_cost>
+    <unique_id>20</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0021</cp_no>
+    <part_number>70L                           </part_number>
+    <obsolete>Y </obsolete>
+    <description>PVC EHA 70L 105 Degree C                                                        </description>
+    <specific_gravity>1.31</specific_gravity>
+    <cp_cost></cp_cost>
+    <unique_id>21</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0022</cp_no>
+    <part_number>3067-25                       </part_number>
+    <obsolete>  </obsolete>
+    <description>XL 3067-25 , 125C XLPE COMPOUND                                                 </description>
+    <specific_gravity>1.41</specific_gravity>
+    <cp_cost>2.56</cp_cost>
+    <unique_id>22</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0023</cp_no>
+    <part_number>7414                          </part_number>
+    <obsolete>Y </obsolete>
+    <description>XL-7414 125 Degree C                                                            </description>
+    <specific_gravity>1.38</specific_gravity>
+    <cp_cost></cp_cost>
+    <unique_id>23</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0024</cp_no>
+    <part_number>7420                          </part_number>
+    <obsolete>  </obsolete>
+    <description>XL-7420, 125 DEG C COMPOUND                                                     </description>
+    <specific_gravity>1.4</specific_gravity>
+    <cp_cost>2.21</cp_cost>
+    <unique_id>24</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0019</cp_no>
+    <part_number>6915                          </part_number>
+    <obsolete>  </obsolete>
+    <description>PVC 4425, 85 DEG C COMPOUND                                                     </description>
+    <specific_gravity>1.34</specific_gravity>
+    <cp_cost>1.241</cp_cost>
+    <unique_id>19</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0006</cp_no>
+    <part_number>6926-021                      </part_number>
+    <obsolete>  </obsolete>
+    <description>6926-021, 105 DEG C COMPOUND                                                    </description>
+    <specific_gravity>1.39</specific_gravity>
+    <cp_cost>1.221</cp_cost>
+    <unique_id>6</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0007</cp_no>
+    <part_number>6926-022                      </part_number>
+    <obsolete>  </obsolete>
+    <description>6926-022 PVC,105 DEGC COMPOUND                                                  </description>
+    <specific_gravity>1.38</specific_gravity>
+    <cp_cost>1.221</cp_cost>
+    <unique_id>7</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0016</cp_no>
+    <part_number>V1099                         </part_number>
+    <obsolete>  </obsolete>
+    <description>MANNER V1099 NAT 601, 105C PVC COMP                                             </description>
+    <specific_gravity>1.34</specific_gravity>
+    <cp_cost>1.511</cp_cost>
+    <unique_id>16</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0001</cp_no>
+    <part_number>1812-29                       </part_number>
+    <obsolete>  </obsolete>
+    <description>1712-19 HYPALON                                                                 </description>
+    <specific_gravity>1.36</specific_gravity>
+    <cp_cost>2.47</cp_cost>
+    <unique_id>1</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0000</cp_no>
+    <part_number>No/Undefined Compound         </part_number>
+    <obsolete>  </obsolete>
+    <description>Compound Not Defined or No Compound for Part                                    </description>
+    <specific_gravity>0</specific_gravity>
+    <cp_cost>0</cp_cost>
+    <unique_id>26</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP0010</cp_no>
+    <part_number>SUPEROHM 4863V                </part_number>
+    <obsolete>  </obsolete>
+    <description>ECC SUPEROHM 4863 EPCV COMPOUND                                                 </description>
+    <specific_gravity>1.37</specific_gravity>
+    <cp_cost>3.36</cp_cost>
+    <unique_id>10</unique_id>
+  </DATA_RECORD>
+  <DATA_RECORD>
+    <cp_no>CP9999</cp_no>
+    <part_number>TEST COMPOUND                 </part_number>
+    <obsolete>Y </obsolete>
+    <description>12345678901234567890123456789012345678901234567890123456789012345678901234567890</description>
+    <specific_gravity>1</specific_gravity>
+    <cp_cost>0</cp_cost>
+    <unique_id>25</unique_id>
+  </DATA_RECORD>
+</cond_compound>
